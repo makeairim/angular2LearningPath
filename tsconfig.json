@@ -8,13 +8,21 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
     "target": "es5",
+    "module": "commonjs",
     "typeRoots": [
       "node_modules/@types"
     ],
     "lib": [
       "es2016",
       "dom"
+    ],
+    "exclude": [
+      "node_modules",
+      "typings/main",
+      "typings/main.d.ts"
     ]
   }
 }
